@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <style>
+        @font-face {
+    font-family:DMSans ;
+    src: url(https://fonts.google.com/specimen/DM+Sans);
+}
+@font-face {
+    font-family:DMSans ;
+    src: url(/DMSans-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family:DMSitali ;
+    src: url(/DMSans-Italic-VariableFont_opsz\,wght.ttf);
+}
+body{
+     font-family: 'DMSans','DMSitali' ;
+     overflow: hidden; 
+     background-color: #f4f8fa;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+.one, 
+.two ,
+.three, 
+.four ,
+.five ,
+.six ,
+.five ,
+.six ,
+.seven, 
+.eight {
+    border: 1px ;
+    width: 190px;
+    margin: 0px;
+}
+.one{
+    
+    width: 25%;
+    height: 300px;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 5px;
+}
+.one > P{
+    margin: 50px;
+    font-size: 25px;
+}
+ .sp {
+    color:  #4B0082;
+    font-style: italic;
+}
+.an{
+    color: hsl(39, 100%, 71%);
+
+}
+.one > img{
+    margin-top: -9%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.two{
+    width: 50%;
+    height: 150px; 
+    background-color: hsl(228, 45%, 44%);
+    border-radius: 10px;
+   
+}
+.two > .onee{
+    color: white;
+    font-size: 18px;
+    margin-left: 30%;
+    margin-top: -0.5%;
+   
+}
+.nene{
+    font-size: 24px;
+    margin-left: 30%;
+    margin-top: 1%;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.two > img{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: -4%;
+}
+.three{
+        height: 27em; 
+        background-color: #c8cbcc; 
+        border-radius: 5px;
+}
+.three > img{
+    width: 95%;
+    overflow:auto;
+    margin-left: 20px;
+}
+.sche{
+    margin-left: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.seke{
+    margin-left: 20px;
+    margin-left: 5px;
+}
+.four {
+   position: relative; 
+   margin-left: 52%;
+   margin-top: -29%;
+    height: 270px;
+    width: 23%;
+    border-radius: 10px;
+    background-color: hsl(39, 100%, 71%);
+    overflow: hidden;
+}
+.four > img{
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.four > P {
+margin: 30px 20px 20px 20px;
+font-size: 20px;
+font-weight: bold;
+}
+.five{
+   margin-left: 27%;
+    margin-top: -28%;
+    width: 24%;
+    height: 270px;
+    border-radius: 10px ;
+    background-color: white;
+    border-radius: 15px;
+   
+}
+.five > img{
+    padding: 10%;
+    width: 90%;
+}
+.five > p{
+    font-size: 20px;
+    padding: 18px;
+    font-weight: 900;
+}
+.six{
+    margin-top: -14%;
+    width: 25%;
+    height: 400px;
+    background-color: hsl(39, 100%, 71%);
+    border-radius:10px;
+}
+
+.six > img {
+    width: 80%;
+    height: 60%;
+    margin: 60px 5px 5px 25px;
+}
+.six > h2 {
+    margin: 10px;
+}
+.seven{
+    width: 25%;
+    margin-left: -.2%;
+    background-color: white;
+    padding: 15px;
+    box-shadow: white;
+    border-radius: 10px;
+}
+.seven > img {
+    height: 50%;
+    width: 80%;
+    margin-left: 20px;
+}
+.seven > .greater {
+    margin-left: 50px;
+    font-size: 22px;
+    font-weight: 500;
+}
+ .eight{
+    width: 44%;
+    display: flex;
+    background-color: hsl(228, 45%, 44%);
+    border-radius: 10px;
+    /* margin-left: %; */
+} 
+.eight > img {
+    margin: 10px;
+    border:3px#4B0082;
+    width: 50%;
+    height: 92%;
+    
+}
+.grow{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 13%;
+}
+@media only screen and (max-width: 768px){
+    html{
+        overflow: scroll;
+    }
+
+    .all{
+            display: grid;
+       
+    }
+    
+    .one, 
+    .two ,
+    .three, 
+    .four ,
+    .five ,
+    .six ,
+    .five ,
+    .six ,
+    .seven, 
+    .eight {
+        border: 1px ;
+        width: 100%;
+        margin: 0px;
+    } 
+}
+    </style>
+    <div class="all">
+        <div class="one">
+          <p>Create and schedule content <span class="sp">quicker.</span></p>
+          <img src="/Bento/illustration-create-post.webp" alt="create-post">
+        </div>
+        <div class="two">
+           <p class="nene">Social Media <span class="an">10x</span> <br>Faster with AI</p>
+           <img src="/Bento/illustration-five-stars.webp" alt="five-stars">
+           <p class="onee">Over 4,000 5-star reviews</p>
+        </div>
+        <div class="three">
+          <p class="sche">Schedule to social media.</p>
+          <img src="/Bento/illustration-schedule-posts.webp" alt="">
+          <P class="seke">Optimize post timings to publish content at the perfect time for your audience</P>
+        </div>
+        <div class="five">
+          <img src="/Bento/illustration-multiple-platforms.webp" alt="">
+          <p>Manage multiple accounts and platforms.</p>
+        </div>
+        <div class="four">
+            <p>Maintain a consistent posting schedule.</p>
+            <img src="/Bento/illustration-consistent-schedule.webp" alt="">
+        </div>
+
+        <div class="six">
+            <h2>  Write your content using AI.</h2>
+              <img src="/Bento/illustration-ai-content.webp" alt="">        
+        </div>
+       <div class="seven">
+           <p class="greater">>56%</p>
+           <p>faster audience growth</p>
+           <img src="/Bento/illustration-audience-growth.webp" alt="">
+        </div>
+
+        <div class="eight">
+           <img src="/Bento/illustration-grow-followers.webp" alt="grow-th">
+           <p class="grow">Grow followers with non-stop content.</p>
+        </div>
+
+    </div>
+</body>
+</html>
